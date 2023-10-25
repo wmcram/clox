@@ -1,5 +1,5 @@
 CC := gcc
-CFLAGS := -std=c99 -Wall -I./src
+CFLAGS := -std=c99 -I./src
 LDFLAGS :=
 SRC_DIR := src
 BUILD_DIR := build
