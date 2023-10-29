@@ -3,7 +3,7 @@ CFLAGS := -std=c99 -I./src
 LDFLAGS :=
 SRC_DIR := src
 BUILD_DIR := build
-TARGET := your_program
+TARGET := cloxc
 
 SRCS := $(wildcard $(SRC_DIR)/*.c)
 OBJS := $(patsubst $(SRC_DIR)/%.c,$(BUILD_DIR)/%.o,$(SRCS))
